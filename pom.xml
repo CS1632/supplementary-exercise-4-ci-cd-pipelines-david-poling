@@ -6,6 +6,14 @@
   <artifactId>cs1632-cicd-junit</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
+  
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-wonsunahn</url>
+    </repository>
+  </distributionManagement>
 
   <name>cs1632-cicd-junit</name>
   <description>An exercise demonstrating CI/CD through github actions.  It uses JUnit for unit testing.</description>
@@ -26,14 +34,7 @@
       <organizationUrl>https://www.pitt.edu/</organizationUrl>
     </developer>
   </developers>
-  
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-wonsunahn</url>
-    </repository>
-  </distributionManagement>
+
 
   <scm>
     <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
