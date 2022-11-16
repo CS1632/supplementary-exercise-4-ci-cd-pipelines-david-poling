@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-junit-dap180</artifactId>
+  <artifactId>cs1632-cicd-junit-david-poling</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -33,11 +33,11 @@
     <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
    </scm>
   
-  <distributionManagement>
+    <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-david-poling</url>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-wonsunahn</url>
     </repository>
   </distributionManagement>
 
@@ -57,6 +57,7 @@
       <version>2.0.2-beta</version>
       <scope>test</scope>
     </dependency>
+
 
     <dependency>
       <groupId>junit</groupId>
