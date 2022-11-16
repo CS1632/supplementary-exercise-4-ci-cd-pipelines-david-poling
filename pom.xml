@@ -27,7 +27,6 @@
     </developer>
   </developers>
 
-
   <scm>
     <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
     <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
@@ -58,7 +57,6 @@
       <version>2.0.2-beta</version>
       <scope>test</scope>
     </dependency>
-
 
     <dependency>
       <groupId>junit</groupId>
